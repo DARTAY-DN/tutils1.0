@@ -50,20 +50,20 @@ while True:
 	if menu == ('1'):
 		os.system('clear')
 		print('\033[32mЗапуск SmsHam...')
-		os.chdir('utils')
+		os.chdir('Utils')
 		time.sleep(2)
 		os.system('python smsham.py')
 	elif menu == ('2'):
 		os.system('clear')
 		print('\033[32mЗапуск VkTool   ...')
-		os.chdir('utils')
+		os.chdir('Utils')
 		os.system('python n.py')
 	elif menu == ('3'):
 		os.system('clear')
 		print('\033[32mЗапуск Sherlock...')
-		os.chdir('utils')
+		os.chdir('Utils')
 		os.system('python sherl.py')
 	elif menu == ('4'):
 		os.system('clear')
-		os.chdir('utils')
+		os.chdir('Utils')
 		os.system('python MailSpam.py')
