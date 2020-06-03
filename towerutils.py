@@ -39,44 +39,31 @@ banner = """\033[32m
 print(banner)
 time.sleep(3)
 while True:
-	menu = 			input("""\033[34m_________Menu_________
-\033[34m|\033[31m[\033[33m1\033[31m] - \033[36mKingFish3
+	menu = 			input("""
 \033[34m_________SmsBomer_________
-\033[34m|\033[31m[\033[33m2\033[31m] - \033[32mSmsHam 
+\033[34m|\033[31m[\033[33m1\033[31m] - \033[32mSmsHam 
 	\033[34m_________VkPermission_________
-\033[34m|\033[31m[\033[33m3\033[31m] - \033[32mVkTool
+\033[34m|\033[31m[\033[33m2\033[31m] - \033[32mVkTool
 \033[34m_________Hack_________
-\033[34m|\033[31m[\033[33m4\033[31m] - \033[32mSherlock 
-\033[34m|\033[31m[\033[33m5\033[31m] - \033[32mMailSpam """)
+\033[34m|\033[31m[\033[33m3\033[31m] - \033[32mSherlock 
+\033[34m|\033[31m[\033[33m4\033[31m] - \033[32mMailSpam """)
 	if menu == ('1'):
-		os.system('clear')
-		print('\033[32mЗапуск KingFish3...')
-		os.chdir('utils')
-		os.chdir('kingfish3')
-		os.chdir('kingfish3.0')
-		time.sleep(2)
-		os.system('python fsh.py')
-	elif menu == ('2'):
 		os.system('clear')
 		print('\033[32mЗапуск SmsHam...')
 		os.chdir('utils')
-		os.chdir('smsham')
 		time.sleep(2)
 		os.system('python smsham.py')
-	elif menu == ('3'):
+	elif menu == ('2'):
 		os.system('clear')
 		print('\033[32mЗапуск VkTool   ...')
 		os.chdir('utils')
-		os.chdir('VKTOOL')
 		os.system('python n.py')
-	elif menu == ('4'):
+	elif menu == ('3'):
 		os.system('clear')
 		print('\033[32mЗапуск Sherlock...')
 		os.chdir('utils')
-		os.chdir('sherlock')
 		os.system('python sherl.py')
-	elif menu == ('5'):
+	elif menu == ('4'):
 		os.system('clear')
 		os.chdir('utils')
-		os.chdir('InfinityMailSpam')
 		os.system('python MailSpam.py')
